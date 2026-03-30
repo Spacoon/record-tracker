@@ -9,7 +9,7 @@ import data_manager as dm
 
 # Page Config
 st.set_page_config(
-    page_title="Record Tracker",
+    page_title="Record Inventory Tracker",
     page_icon="🎵",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -166,8 +166,8 @@ if 'wl_notified' not in st.session_state:
 
 # Sidebar
 with st.sidebar:
-    st.markdown('<p class="hero-title" style="font-size:1.8rem">🎵 Record Tracker</p>', unsafe_allow_html=True)
-    st.caption("Your local record store tracker")
+    st.markdown('<p class="hero-title" style="font-size:1.8rem">🎵 Record Inventory Tracker</p>', unsafe_allow_html=True)
+    st.caption("Agrochowski record store tracker")
     st.divider()
 
     page = st.radio(
@@ -189,7 +189,7 @@ with st.sidebar:
 # PAGE: Dashboard
 if page == "🏠 Dashboard":
     st.markdown('<p class="hero-title">🏠 Dashboard</p>', unsafe_allow_html=True)
-    st.markdown('<p class="hero-sub">Overview of your local record store inventory</p>', unsafe_allow_html=True)
+    st.markdown('<p class="hero-sub">Overview of Agrochowski record store inventory</p>', unsafe_allow_html=True)
     st.markdown("")
 
     # KPI cards
