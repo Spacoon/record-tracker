@@ -50,7 +50,7 @@ record-inventory-tracker/
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/<your-username>/record-inventory-tracker.git
+git clone https://github.com/Spacoon/record-inventory-tracker/
 cd record-inventory-tracker
 pip install -r requirements.txt
 ```
